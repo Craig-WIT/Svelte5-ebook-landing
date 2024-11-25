@@ -1,7 +1,6 @@
 <style>
   .hero {
     display: flex;
-    height: 100vh;
     overflow-y: hidden;
   }
 
@@ -30,7 +29,7 @@
     right: 2%;
     bottom: 0;
     width: 65%;
-    transform: translateY(35%);
+    transform: translateY(-5%);
   }
 
   .phone-cover {
@@ -38,7 +37,7 @@
     width: 35%;
     bottom: 0;
     right: 52%;
-    transform: translateY(20%);
+    transform: translateY(-20%);
   }
 </style>
 
