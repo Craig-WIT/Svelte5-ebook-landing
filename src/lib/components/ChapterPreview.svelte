@@ -1,4 +1,10 @@
 <style>
+  .landing-page-section {
+    padding: 80px 0;
+    margin-left: 12vw;
+    margin-right: 20vw;
+  }
+
   .chapter-container {
     display: flex;
     justify-content: space-between;
