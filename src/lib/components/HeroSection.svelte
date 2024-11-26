@@ -66,7 +66,7 @@
     right: 2%;
     bottom: 0;
     width: 65%;
-    transform: translateY(-10%);
+    transform: translateY(40%);
   }
 
   .phone-cover {
@@ -74,6 +74,6 @@
     width: 35%;
     bottom: 0;
     right: 52%;
-    transform: translateY(-25%);
+    transform: translateY(25%);
   }
 </style>
