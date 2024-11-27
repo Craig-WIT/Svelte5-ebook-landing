@@ -1,12 +1,15 @@
 <script>
   import chevronDown from "$assets/icons/chevron-down.svg";
+
+  let {faq, isExpanded, ...props} = $props();
+
 </script>
 
-<button class="container">
+<button class="container" class:container-expanded={isExpanded} {...props}>
   <div class="question-and-answer">
-    <p class="question mb-s">What can I learn from this ebook?</p>
+    <p class="question mb-s">{faq.question}</p>
     <p class="answer">
-      Sample Answer
+      {faq.answer}
     </p>
   </div>
   <img src={chevronDown} alt="" />
@@ -33,7 +36,7 @@
     opacity: 0;
     transition:
       max-height 0.3s ease-out,
-      opacity 0.3s ease-out;
+      opacity 1s ease-out;
   }
 
   button img {
