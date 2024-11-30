@@ -26,7 +26,7 @@
   }
 </script>
 
-<button {...props} {onclick}>{@render children()} onclick=</button>
+<button {...props} {onclick}>{@render children()}</button>
 
 <style>
   button {
