@@ -38,6 +38,7 @@
 <style>
   .hero {
     display: flex;
+    height: 100vh;
     overflow-y: hidden;
   }
 
